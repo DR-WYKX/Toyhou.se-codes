@@ -1,0 +1,105 @@
+<!--
+
+DIGITAL INTRODUCTION F2U
+BY WykxDream on Toyhou.se
+
+HTML only + mobile friendly.
+Come to me if you have any problems.
+You can re-edit the code.
+Don't remove my credit.
+
+-->
+
+<!--START-->
+
+<!--CONTAINER
+Original background behind the character here.
+Keep the same link for the blurred background.-->
+<div class="container"
+    style="background: url(IMG_URL);
+    background-size: cover;
+    border: 10px solid #000000;
+    box-shadow: -10px 10px 0px #666666;
+    width: 400px;
+    height: 200px;">
+    <div class="row">
+        <!--IMAGE #1
+        Image behind the character.
+        If the image isn't square/rectangle
+        shaped I recommand you to remove "box-shadow".-->
+        <img src="IMG_URL"
+            style="position: absolute;
+            bottom: 20%;
+            right: 80%;
+            border: 0px solid;
+            height: 60%;
+            width: 30%;
+            transform: rotate(-15deg);
+            box-shadow: -5px 5px 0px #9c9c9c;">
+        <!--IMAGE #2
+        Image of your character here.-->
+        <div class="card col-5"
+            style="background: url(IMG_URL);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            border: 0px;
+            width: 200px;">
+        </div>
+        <!--BLURRED BACKGROUND
+        Same background but blurred under the text.-->
+        <div style="background: url(IMG_URL);
+            position: absolute;
+            filter: blur(2px);
+            background-size: 400px;
+            background-position: top right;
+            left: 160px;
+            width: 220px;
+            height: 180px;">
+        </div>
+        <!--TRANSPARENT BACKGROUND
+        Transparent background of color.
+        Keep it as rgba to modify the opacity!-->
+        <div class="col"
+            style="background-color: rgba(179,179,179,0.33);
+            width: 220px;
+            height: 180.5px;">
+            <center>
+                <strong>
+                    <!--TEXTS BOX
+                    Your texts here. Keep it brief
+                    as the box doesn't expand.-->
+                    <font face="arial" color="#8b8b8b" size="2">
+                        <!--NAME
+                        Title, the name of your character here.-->
+                        <font size="5">NAME</font>
+                        <br>
+                        Lorem ipsum dolor sit amet,
+                        <br>
+                        consectetur adipiscing elit.
+                        <br>
+                    </font>
+                </strong>
+                <!--IMAGE #3
+                Small image under the text.
+                Title is for image credits.-->
+                <img src="IMG_URL"
+                    width="100px"
+                    title="art credit">
+                <!--CREDIT
+                Button that links to the code credit.
+                Feel free to change the color, position or icon!
+                (under "style=" add this to change the color:
+                color: #HEX)-->
+                <a href="https://toyhou.se/WykxDream">
+                    <i class="fa fa-bug"
+                        style="position: absolute;
+                        left: 220px;
+                        top: 180px;">
+                    </i>
+                </a>
+            </center>
+        </div>
+    <!--END-->
+    </div>
+</div>
